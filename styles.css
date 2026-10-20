@@ -13,3 +13,9 @@ h1,h2,h3{overflow-wrap:anywhere}
 
 /* Keep the fixed next-step button clear of the footer disclosure. */
 footer{padding-bottom:85px}
+
+/* V2: a clear local introduction and plain issue/impact/proof/fix flow. */
+.v2-title{font-size:clamp(42px,4.7vw,68px);font-variation-settings:"wdth"90;max-width:620px}
+.why-note{margin-top:65px;padding:32px;border:2px solid;background:#e5e1d8;display:grid;grid-template-columns:1fr 1.35fr;gap:15px 45px;align-items:start}
+.why-note .mono{grid-column:1/-1}.why-note h2{font-size:36px;letter-spacing:-.04em;line-height:1.04;font-variation-settings:"wdth"95}.why-note p{font-size:17px;line-height:1.6}.strength-intro{font-size:21px;max-width:960px;margin-top:42px;line-height:1.5}.good{margin-top:25px}.issue-label{display:block;margin-bottom:8px;color:#686258}.customer-impact{margin-top:22px;padding-top:19px;border-top:1px solid var(--line)}.customer-impact .mono{display:block;margin-bottom:8px}.source strong{width:100%;font-weight:400}.glossary{padding-bottom:25px}.proof h2{font-variation-settings:"wdth"90;font-size:31px;line-height:1.05}.finding h3{font-variation-settings:"wdth"95;line-height:1.03}
+@media(max-width:760px){.v2-title{font-size:clamp(40px,10vw,58px);font-variation-settings:"wdth"80}.why-note{grid-template-columns:minmax(0,1fr);padding:23px;gap:15px;margin-top:40px}.why-note h2{font-size:30px;overflow-wrap:anywhere}.why-note p{font-size:16px}.strength-intro{font-size:19px}.finding h3{font-size:30px}.proof h2{font-size:31px}}
